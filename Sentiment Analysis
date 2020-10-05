@@ -3,6 +3,7 @@
 library(rtweet)
 library(httpuv)
 library(syuzhet)
+library(ggplot2)
 
 
 #cerchiamo tweet su un tema
