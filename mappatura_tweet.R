@@ -21,8 +21,3 @@ ElShGeodef <- na.omit(ElshGeo[,c("lat","lng")])
 head(ElShGeodef$lat, 10)
 
 
-#mappatura tweet Italia su #Beirut
-
-map(database = "italy", fill = TRUE, boundary = TRUE, col = "aliceblue")
-
-with(ElShGeodef, points(lng, lat, pch = 20, cex = 1, col = "blue"))
