@@ -37,3 +37,10 @@ ggplot(punteggioDEF, aes(x = sentiment, y = punteggio, fill = sentiment)) +
   geom_bar(stat = "identity") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(plot.title = element_text("Sentiment Analysis Tesla"), text = element_text(family = "serif")) +
   ggtitle("Sentimental Analysis Tesla")
+
+##       EXTRA    ##
+# scaricare il punteggio della sentiment analysis su file Excel
+
+library(writexl)
+
+write_xlsx(punteggioDEF, "Percorso_PC//nomefile.xlsx")
