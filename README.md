@@ -4,7 +4,7 @@
 
 Prima di utilizzare il pacchetto rtweet e i relativi script è necessario registrarsi alla piattaforma Twitter Developers per poter accedere alle APIs della piattaforma
 
-Before using: rtweet requires a Twitter Developers Account in order to access to the APIs platform.
+Before using: rtweet requires a Twitter Developers Account in order to access to APIs platform.
 
 ## CONTENUTI/CONTENTS ##
 
