@@ -1,6 +1,6 @@
 # Twitter-data-analysis-con-R
 
-## IMPORTANTE7READ ME! ##
+## IMPORTANTE/READ ME! ##
 
 Prima di utilizzare il pacchetto rtweet e i relativi script è necessario registrarsi alla piattaforma Twitter Developers per poter accedere alle APIs della piattaforma
 
